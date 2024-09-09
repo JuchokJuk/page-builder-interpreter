@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/",
+    "scheme": "/scheme/routes/home.json"
+  },
+  {
+    "path": "about",
+    "scheme": "/scheme/routes/about.json"
+  },
+  {
+    "path": "user/:userId",
+    "scheme": "/scheme/routes/user.json"
+  },
+  {
+    "path": "user/:userId/profile",
+    "scheme": "/scheme/routes/profile.json"
+  },
+  {
+    "path": "user/:userId/settings",
+    "scheme": "/scheme/routes/settings.json"
+  }
+]

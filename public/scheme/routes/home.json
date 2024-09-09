@@ -1,0 +1,188 @@
+{
+  "ROOT": {
+    "type": { "resolvedName": "Canvas" },
+    "isCanvas": true,
+    "props": { "className": "w-full h-full", "id": "ROOT" },
+    "displayName": "div",
+    "custom": {},
+    "hidden": false,
+    "nodes": ["qAkXFJ8OUO"],
+    "linkedNodes": {}
+  },
+  "YJEcZnZ04R": {
+    "type": { "resolvedName": "NodeButton" },
+    "isCanvas": false,
+    "props": { "children": "Button 1" },
+    "displayName": "Button",
+    "custom": { "importPath": "@/components/button" },
+    "parent": "ROOT",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "qDwjRF_Bh6": {
+    "type": { "resolvedName": "NodeButton" },
+    "isCanvas": false,
+    "props": { "children": "Button 2" },
+    "displayName": "Button",
+    "custom": { "importPath": "@/components/button" },
+    "parent": "ROOT",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "cDOPKsSlLi": {
+    "type": { "resolvedName": "NodeButton" },
+    "isCanvas": false,
+    "props": { "children": "Button 3" },
+    "displayName": "Button",
+    "custom": { "importPath": "@/components/button" },
+    "parent": "ROOT",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "kAUDiQjrJ5": {
+    "type": { "resolvedName": "NodeButton" },
+    "isCanvas": false,
+    "props": { "children": "Button 4" },
+    "displayName": "Button",
+    "custom": { "importPath": "@/components/button" },
+    "parent": "ROOT",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "qAkXFJ8OUO": {
+    "type": { "resolvedName": "NodeCard" },
+    "isCanvas": false,
+    "props": { "className": "p-6 m-2" },
+    "displayName": "Card",
+    "custom": { "importPath": "@/components/card" },
+    "parent": "ROOT",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": { "card-header": "Dc1g3wS4mg", "card-content": "qDZVcSHYlx", "card-footer": "aqMEgUwHBp" }
+  },
+  "Dc1g3wS4mg": {
+    "type": { "resolvedName": "NodeCardHeader" },
+    "isCanvas": true,
+    "props": {},
+    "displayName": "CardHeader",
+    "custom": { "importPath": "@/components/card" },
+    "parent": "qAkXFJ8OUO",
+    "hidden": false,
+    "nodes": ["EnNrK3r6vz", "YqI9Qt9IQu"],
+    "linkedNodes": {}
+  },
+  "EnNrK3r6vz": {
+    "type": { "resolvedName": "NodeCardTitle" },
+    "isCanvas": false,
+    "props": { "children": "Страница home" },
+    "displayName": "CardTitle",
+    "custom": { "importPath": "@/components/card" },
+    "parent": "Dc1g3wS4mg",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "qDZVcSHYlx": {
+    "type": { "resolvedName": "NodeCardContent" },
+    "isCanvas": true,
+    "props": {},
+    "displayName": "CardContent",
+    "custom": { "importPath": "@/components/card" },
+    "parent": "qAkXFJ8OUO",
+    "hidden": false,
+    "nodes": ["LqfQTCxNko"],
+    "linkedNodes": {}
+  },
+  "aqMEgUwHBp": {
+    "type": { "resolvedName": "NodeCardFooter" },
+    "isCanvas": true,
+    "props": {},
+    "displayName": "CardFooter",
+    "custom": { "importPath": "@/components/card" },
+    "parent": "qAkXFJ8OUO",
+    "hidden": false,
+    "nodes": ["rlyqnEuYiV"],
+    "linkedNodes": {}
+  },
+  "rlyqnEuYiV": {
+    "type": { "resolvedName": "NodeButton" },
+    "isCanvas": false,
+    "props": { "children": "Просто кнопка" },
+    "displayName": "Button",
+    "custom": { "importPath": "@/components/button" },
+    "parent": "aqMEgUwHBp",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "LqfQTCxNko": {
+    "type": { "resolvedName": "NodeTwoBlocks" },
+    "isCanvas": false,
+    "props": { "className": "flex flex-row" },
+    "displayName": "div",
+    "custom": {},
+    "parent": "qDZVcSHYlx",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": { "first-block": "UHpiWwtV5B", "second-block": "XdIfkqOJ_8" }
+  },
+  "UHpiWwtV5B": {
+    "type": { "resolvedName": "NodeOneBlock" },
+    "isCanvas": true,
+    "props": { "className": "w-full" },
+    "displayName": "div",
+    "custom": { "importPath": "" },
+    "parent": "LqfQTCxNko",
+    "hidden": false,
+    "nodes": ["8iFwDQrsv4"],
+    "linkedNodes": {}
+  },
+  "XdIfkqOJ_8": {
+    "type": { "resolvedName": "NodeOneBlock" },
+    "isCanvas": true,
+    "props": { "className": "w-full" },
+    "displayName": "div",
+    "custom": { "importPath": "" },
+    "parent": "LqfQTCxNko",
+    "hidden": false,
+    "nodes": ["1vwALiFSFW"],
+    "linkedNodes": {}
+  },
+  "8iFwDQrsv4": {
+    "type": { "resolvedName": "NodeButton" },
+    "isCanvas": false,
+    "props": { "variant": "outline", "children": "Кнопка с обводкой" },
+    "displayName": "Button",
+    "custom": { "importPath": "@/components/button" },
+    "parent": "UHpiWwtV5B",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "1vwALiFSFW": {
+    "type": { "resolvedName": "NodeButton" },
+    "isCanvas": false,
+    "props": { "variant": "destructive", "children": "Красная кнопка" },
+    "displayName": "Button",
+    "custom": { "importPath": "@/components/button" },
+    "parent": "XdIfkqOJ_8",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  },
+  "YqI9Qt9IQu": {
+    "type": { "resolvedName": "NodeCardDescription" },
+    "isCanvas": false,
+    "props": { "children": "Ну тут всё ясно" },
+    "displayName": "CardDescription",
+    "custom": { "importPath": "@/components/card" },
+    "parent": "Dc1g3wS4mg",
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {}
+  }
+}
